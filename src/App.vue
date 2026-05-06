@@ -36,7 +36,7 @@ async function removeMember(id: string) {
 </script>
 
 <template>
-  <h1>All members of viadee-2</h1>
+  <h1>Hello Team viadee-2</h1>
 
   <!-- The @submit.prevent ensures the page doesn't reload -->
   <form @submit.prevent="addMember">
