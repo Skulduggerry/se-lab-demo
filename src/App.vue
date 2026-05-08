@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useCollection } from 'vuefire'
-// 1. Import addDoc
 import { collection, deleteDoc, doc, addDoc } from 'firebase/firestore'
 import { db } from '@/firebase.ts'
 
